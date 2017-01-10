@@ -1,6 +1,8 @@
 # AstroScoop
 
-## Built using React Native for iOS Devices, AstroScoop generates information on all things Space related.
+## Built using React Native for iOS Devices-
+
+## AstroScoop gives the user information on all things Space related and the latest news on Aero-space/Defense
 
 ## Main features include:
 - Live tracking of the International Space Station

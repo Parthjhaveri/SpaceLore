@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import { AppRegistry, StyleSheet, Text, View, Image, ListView, Button, TouchableHighlight, StatusBar, Navigator } from 'react-native';
+import { AppRegistry, ScrollView, StyleSheet, Text, View, Image, ListView, Button, TouchableHighlight, StatusBar, Navigator } from 'react-native';
 
 export default class MarsPage extends Component {
 
@@ -45,15 +45,24 @@ renderScene(route, navigator){
 
 render() {
     return (
-      <View>
+      <ScrollView>
           
-          <View style={{padding: 50, width: 414, height: 736, backgroundColor: '#1a1a1a', marginTop: 20,}}>
+          <View style={{padding: 20, width: 414, height: null, backgroundColor: '#1a1a1a', marginTop: 20,}}>
             <StatusBar />
             <Text style={style.marsHeading}>Mars</Text>
 
+            <Text style={style.marsIntro}>
+              The Red-Planet has always been known for its dry, dead features
+              and goliath landscape features. In recent years, the National 
+              Aeronautics and Space Administration (NASA), has sent 3 
+              car-sized Rovers to roam about the surface of Mars. Below, are
+              rare pictures from all 3 of the Rovers- Curiosity, Spirit and
+              Opportunity.
+            </Text>
+
           </View>
           
-      </View>
+      </ScrollView>
     )
   }
 }
@@ -65,10 +74,16 @@ const style = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 50,
         alignSelf: 'center',
-        marginTop: 50,
         fontFamily: 'arial',
-        marginBottom: 20,
-        padding: 40
+        marginTop: 30
+  },
+
+  marsIntro: {
+        color: 'white',
+        fontFamily: 'arial',
+        fontSize: 20,
+        marginTop: 40,
+        lineHeight: 35
   }
 
 });

@@ -50,7 +50,7 @@ render() {
           <View style={{padding: 20, width: 414, height: null, backgroundColor: '#1a1a1a', marginTop: 20,}}>
             <StatusBar />
             <Text style={style.marsHeading}>Mars</Text>
-
+            <View style={style.line}></View>
             <Text style={style.marsIntro}>
               The Red-Planet has always been known for its dry, dead features
               and goliath landscape features. In recent years, the National 
@@ -59,6 +59,10 @@ render() {
               rare pictures from all 3 of the Rovers- Curiosity, Spirit and
               Opportunity.
             </Text>
+            <Text style={style.curiosityHeading}>Curiosity</Text>
+            <View style={style.curiosityPics}>
+
+            </View>
 
           </View>
           
@@ -82,8 +86,34 @@ const style = StyleSheet.create({
         color: 'white',
         fontFamily: 'arial',
         fontSize: 20,
-        marginTop: 40,
+        marginTop: 30,
         lineHeight: 35
-  }
+  },
+
+  curiosityHeading: {
+        color: '#e2ad68',
+        fontWeight: 'bold',
+        fontSize: 50,
+        alignSelf: 'center',
+        fontFamily: 'arial',
+        marginTop: 30
+  },
+
+  curiosityPics: {
+        alignSelf: 'center',
+        width: 370,
+        height: 300,
+        marginTop: 40,
+        borderWidth: 2,
+        borderColor: 'white'
+  },
+
+   line: {
+      width: 370,
+      height: 2,
+      backgroundColor: 'white',
+      alignSelf: 'center',
+      marginTop: 20,
+  },
 
 });

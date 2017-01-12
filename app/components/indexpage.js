@@ -54,7 +54,7 @@ render() {
             <View style={style.line}></View>
             
             <TouchableHighlight onPress={this.navigate.bind(this, 'MarsPage')}>
-              <Text style={style.listItem}>Mars Pics</Text>
+              <Text style={style.listItem}>Mars</Text>
             </TouchableHighlight>
 
 
@@ -113,7 +113,6 @@ const style = StyleSheet.create({
       alignSelf: 'center',
       marginBottom: 30,
   },
-
 
    lineTwo: {
       width: 300,

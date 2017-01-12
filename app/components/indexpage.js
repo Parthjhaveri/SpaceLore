@@ -26,6 +26,10 @@ renderScene(route, navigator){
       return <IndexPage navigator = {navigator} />
   }
 
+  if (route.name === 'MarsPage') {
+      return <MarsPage navigator = {navigator} />
+  }
+
 }
 
 // constructor(props) {
@@ -49,11 +53,17 @@ render() {
             
             <View style={style.line}></View>
             
-            <Text style={style.listItem}>Mars Pics</Text>
+            <TouchableHighlight onPress={this.navigate.bind(this, 'MarsPage')}>
+              <Text style={style.listItem}>Mars Pics</Text>
+            </TouchableHighlight>
+
+
             <Text style={style.listItem}>Asteroids</Text>
             <Text style={style.listItem}>APOD</Text>
             <Text style={style.listItem}>Space Station</Text>
             <Text style={style.listItem}>Defense news</Text>
+
+            <View style={style.lineTwo}></View>
 
             {
               // <TouchableHighlight onPress={this.navigate.bind(this, 'MainPage')}>
@@ -92,7 +102,7 @@ const style = StyleSheet.create({
         color: 'white',
         fontWeight: 'bold',
         fontSize: 40,
-        marginTop: 30,
+        marginTop: 20,
         fontFamily: 'arial',
   },
 
@@ -101,7 +111,16 @@ const style = StyleSheet.create({
       height: 2,
       backgroundColor: 'white',
       alignSelf: 'center',
-      marginBottom: 50,
+      marginBottom: 30,
+  },
+
+
+   lineTwo: {
+      width: 300,
+      height: 2,
+      backgroundColor: 'white',
+      alignSelf: 'center',
+      marginTop: 50,
   }
 
 });

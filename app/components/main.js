@@ -20,6 +20,10 @@ navigate(routeName) {
         return <IndexPage navigator = {navigator} />
     }
 
+    if (route.name === 'MarsPage') {
+      return <MarsPage navigator = {navigator} />
+    }
+
  }
 
 render() {

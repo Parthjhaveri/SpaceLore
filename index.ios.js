@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { AppRegistry, StyleSheet, Text, View, Image, Button, TouchableHighlight, StatusBar, Navigator } from 'react-native';
 import MainPage from './app/components/main.js';
 import IndexPage from './app/components/indexpage.js';
+import MarsPage from './app/components/mars.js';
 
 export default class AstroScoop extends Component {
 
@@ -20,6 +21,10 @@ export default class AstroScoop extends Component {
 
       if (route.name === 'IndexPage') {
         return <IndexPage navigator = {navigator} />
+      }
+
+      if (route.name === 'MarsPage') {
+        return <MarsPage navigator = {navigator} />
       }
 
    }

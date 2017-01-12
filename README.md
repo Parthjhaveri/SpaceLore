@@ -2,7 +2,7 @@
 
 ## Built using React Native for iOS Devices-
 
-## SpaceLore gives the user information on all things Space related along with Global Defense News
+## SpaceLore gives the user information on all things Space related along with the latest on Global-defense News
 
 ## Main features include:
 - Live tracking of the International Space Station

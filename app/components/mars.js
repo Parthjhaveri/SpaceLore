@@ -55,13 +55,15 @@ render() {
             <Text style={style.marsHeading}>Mars</Text>
             <View style={style.line}></View>
             <Text style={style.marsIntro}>
-              The Red-Planet has always been known for its dry, dead features
+              The Red-Planet has always been known for its dry, dead 
               and goliath landscape features. In recent years, the National 
-              Aeronautics and Space Administration (NASA), has sent 3 
+              Aeronautics and Space Administration (NASA) has sent 3 
               car-sized Rovers to roam about the surface of Mars. Below, are
               rare pictures from all 3 of the Rovers- Curiosity, Spirit and
               Opportunity.
             </Text>
+
+            <Text style={style.scrollRightBox}>(Scroll right in box)</Text>
             
             <Text style={style.curiosityHeading}>Curiosity</Text>
             <View style={style.curiosityPics}>
@@ -96,6 +98,13 @@ const style = StyleSheet.create({
         color: 'black',
         fontSize: 16,
         fontWeight: 'bold'
+  },
+
+  scrollRightBox: {
+        color: 'white',
+        fontFamily: 'arial',
+        fontSize: 20,
+        marginTop: 20,
   },
   
   marsHeading: {

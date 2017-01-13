@@ -28,9 +28,9 @@ navigate(routeName) {
 
 render() {
     return (
-      <View>
+      <View style={style.backPic}>
           
-          <View style={{width: 414, height: 736, backgroundColor: '#1a1a1a', marginTop: 20,}}>
+          <View style={{width: 414, height: 736, backgroundColor: '#1a1a1a', marginTop: 20}}>
             <StatusBar />
             <Text style={style.red}>SpaceLore</Text>
             <Text style={style.heading}>Everything Space & Defense</Text>
@@ -40,10 +40,11 @@ render() {
             <TouchableHighlight onPress={this.navigate.bind(this, 'IndexPage')}>
               <Text style={style.getStarted}>Get Started</Text>
             </TouchableHighlight>
-
-
+          
           </View>
           
+          
+      
       </View>
     )
   }

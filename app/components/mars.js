@@ -80,6 +80,8 @@ render() {
 
             </View>
 
+            <Text style={style.corem}>Mars CO2 Removal</Text>
+
           </View>
           
       </ScrollView>
@@ -184,6 +186,15 @@ const style = StyleSheet.create({
       backgroundColor: 'white',
       alignSelf: 'center',
       marginTop: 20,
+  },
+
+   corem: {
+        color: 'white',
+        fontWeight: 'bold',
+        fontSize: 30,
+        alignSelf: 'center',
+        fontFamily: 'arial',
+        marginTop: 30
   },
 
 });

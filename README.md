@@ -12,4 +12,9 @@
 - Latest news on Aero-space/Defense
 - Discussion forum
 
-### Courtesy of NASA
+## Courtesy of:
+### The National Aeronautics and Space Administration
+
+![GitHub Logo](http://seeklogo.com/images/N/NASA-logo-9411797223-seeklogo.com.gif)
+
+

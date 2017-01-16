@@ -81,6 +81,7 @@ render() {
             </View>
 
             <Text style={style.corem}>Mars CO2 Removal</Text>
+            <View style={style.line}></View>
 
           </View>
           

@@ -9,6 +9,7 @@
 - Information on Stars and Planets in and outside our Galactic neighborhood
 - Astronomy Picture of the Day (APOD)
 - Pictures from the Mars Rovers
+- Information on Mars CO2 removal
 - Latest news on Aero-space/Defense
 - Discussion forum
 

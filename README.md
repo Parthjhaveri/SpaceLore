@@ -11,7 +11,6 @@
 - Pictures from the Mars Rovers
 - Information on Mars CO2 removal
 - Latest news on Aero-space/Defense
-- Discussion forum
 
 ## Courtesy of:
 ### The National Aeronautics and Space Administration

@@ -83,6 +83,12 @@ render() {
             <Text style={style.corem}>Mars CO2 Removal</Text>
             <View style={style.line}></View>
 
+            <Text style={style.marsIntro}>
+            The Mars CO2 Removal program is a strategy proposed by
+            NASA to use the Carbon DiOxide in Mars's atmosphere to 
+            convert it into Oxygen.
+            </Text>
+
           </View>
           
       </ScrollView>
